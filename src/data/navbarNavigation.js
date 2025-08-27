@@ -197,14 +197,6 @@ const navbarNavigation = [
   {
     title: "Inicio",
     url: "/",
-  },
-  {
-    title: "Tienda",
-    url: "/shop",
-  },
-  {
-    title: "Nosotros",
-    url: "#",
-  },
+  }
 ];
 export default navbarNavigation;

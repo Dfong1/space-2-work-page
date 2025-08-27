@@ -25,7 +25,7 @@ export default function Footer2() {
       <Grid container spacing={6}>
         <Grid item sm={6} xs={12}>
           <Link href="/">
-            <BazaarImage mb={2.5} src="/assets/images/logo.svg" alt="logo" />
+            {/* <BazaarImage mb={2.5} src="/assets/images/logo.svg" alt="logo" /> */}
           </Link>
 
           <Paragraph mb={2.5} color="grey.500" maxWidth="370px">

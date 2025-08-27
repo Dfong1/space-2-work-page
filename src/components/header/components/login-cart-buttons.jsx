@@ -39,7 +39,7 @@ export default function LoginCartButtons({
 
   return (
     <div>
-      <IconButton onClick={handleUserClick}>
+      {/* <IconButton onClick={handleUserClick}>
         <Person sx={ICON_COLOR} />
       </IconButton>
 
@@ -47,7 +47,7 @@ export default function LoginCartButtons({
         <IconButton onClick={handleCartClick}>
           <ShoppingBag sx={ICON_COLOR} />
         </IconButton>
-      </Badge>
+      </Badge> */}
     </div>
   );
 }

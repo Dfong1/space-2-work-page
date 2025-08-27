@@ -44,13 +44,13 @@ export default function MobileHeader({categories=[], products=[], fullcategories
         </Box>
 
         {/* MIDDLE CONTENT - LOGO */}
-        <Link href="/">
+        {/* <Link href="/">
           <Image
             height={44}
             src="/images/logo2.jpg"
             alt="logo"
           />
-        </Link>
+        </Link> */}
 
         {/* RIGHT CONTENT - LOGIN, CART, SEARCH BUTTON */}
         <FlexBox justifyContent="end" flex={1}>

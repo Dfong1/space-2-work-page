@@ -85,7 +85,7 @@ function esTalla(entrada) {
         ref: parentRef,
       }}
     >
-      <TextField
+      {/* <TextField
         onKeyDown={handleKeyPress}
         fullWidth
         variant="outlined"
@@ -95,7 +95,7 @@ function esTalla(entrada) {
           setSearchText(e.target.value);
         }}
         InputProps={INPUT_PROPS}
-      />
+      /> */}
 
       {/* SHOW SEARCH RESULT LIST */}
       {resultList.length > 0 ? <SearchResult results={resultList} /> : null}

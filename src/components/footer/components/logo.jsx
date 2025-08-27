@@ -8,19 +8,19 @@ export default function LogoSection() {
   return (
     <Fragment>
       <Box display="flex" marginLeft={-1} columnGap={0.5} alignItems="center">
-        <Link href="/">
+        {/* <Link href="/">
           <Image
             width="100px"
             src="/images/logo2.jpg"
             alt="logo"
           />
-        </Link>
+        </Link> */}
         <Box>
           <Paragraph size={25} color="grey.500">
             Texto
           </Paragraph>
           <Paragraph fontSize={10} mb={2} color="grey.500">
-            ©  2024 Pop Optica
+            ©  2025 Space 2 Work
           </Paragraph>
         </Box>
       </Box>

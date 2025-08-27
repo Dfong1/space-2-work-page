@@ -63,14 +63,14 @@ export default function SearchInputWithCategory() {
         ref: parentRef,
       }}
     >
-      <TextField
+      {/* <TextField
         fullWidth
         variant="outlined"
         onKeyDown={() => handleKeyPress(event)}
         placeholder="Buscar"
         onChange={handleSearch}
         InputProps={INPUT_PROPS}
-      />
+      /> */}
 
       {/* SHOW SEARCH RESULT LIST */}
       {resultList.length > 0 ? <SearchResult results={resultList} /> : null}

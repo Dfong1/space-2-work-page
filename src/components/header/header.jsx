@@ -41,13 +41,13 @@ export default function Header({
         alignItems="center"
         columnGap={2}
       >
-        <Link href="/">
+        {/* <Link href="/">
           <LazyImage
             src={require("../../../public/images/logo2.jpg")}
             alt="logo"
             height={44}
           />
-        </Link>
+        </Link> */}
         <SearchInputWithCategory />
       </FlexBox>
       {/* SEARCH FORM | NAVIGATION */}

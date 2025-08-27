@@ -54,7 +54,7 @@ export default function Footer1() {
         </Grid>
         <Divider color="#ffffff" sx={{marginTop: 10, marginBottom: 5}} />
           <Box display="flex" justifyContent="center" alignItems="center">
-            2024 Pop Óptica
+            2025 Space 2 Work
           </Box>
       </Box>
     </Box>

@@ -23,9 +23,7 @@ export default function MobileNavigationBar({ setDialogSoonOpen = () => {} }) {
   if (DOWN_900) {
     return (
       <Wrapper>
-        {list.map(({ Icon, href, title, disabled }) => {
-          if (title === "Catálogo" && user?.rol !== "distributor") return
-          
+        {list.map(({ Icon, href, title, disabled }) => {          
           return (
             <StyledNavLink href={disabled ? "#" : href} key={title}>
               {title === "Carrito" ? (
@@ -51,20 +49,5 @@ const list = [
     title: "Inicio",
     Icon: Home,
     href: "/",
-  },
-  {
-    title: "Tienda",
-    Icon: CategoryOutlined,
-    href: "/shop",
-  },
-  {
-    title: "Carrito",
-    Icon: ShoppingBagOutlined,
-    href: "/cart",
-  },
-  {
-    title: "Cuenta",
-    Icon: User2,
-    href: "/customer/profile",
   },
 ];

@@ -1,9 +1,11 @@
-import Shop from "@/pages-section/shop/page-view/shop";
+import Index from "@/components";
+import Navbar from "@/components/navbar";
 
 export default function Home() {
   return (
-    <div >
-      <Shop />
-    </div>
+     <div>
+      <Navbar/>
+      <Index/>
+     </div>
   );
 }
